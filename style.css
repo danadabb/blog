@@ -1,0 +1,77 @@
+body{
+	background: GhostWhite;
+	margin: 0;
+	padding: 0;
+}
+
+article{
+	color: black;
+	font-family: 'Space Mono', monospace;
+	font-size: 13px;
+	width: 800px;
+	margin: 30px auto;
+	padding: 0px 10px;
+	border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.clr
+{
+	clear: both;
+}
+
+#banner{
+	background: #333;
+    height: 150px;
+    width: 100%;	
+	color: white;
+	display: inline-block;
+}
+
+#site-title
+{
+	padding-top: 10px;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+}
+
+#subtitle{
+	font-family: 'Space Mono', monospace;
+	text-align: center;
+
+}
+
+#menu{
+}
+
+
+#main{
+	position: static;
+}
+
+nav {
+	text-align: center;
+}
+
+nav button
+{
+	font-family: 'Space Mono', monospace;	
+	border: transparent;
+	/*border-bottom: 2px #555 solid;*/
+	border-radius: 4px;
+	margin-top: 10px;
+	padding: 5px 10px;
+	margin-left: 10px; 
+	color: white;
+  	background-color: transparent;
+}
+
+.active{
+	border-bottom: 2px #555 solid;	
+
+
+}
+nav button:hover{
+	background-color: #20B2AA;
+}
