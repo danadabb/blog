@@ -4,17 +4,6 @@ body{
 	padding: 0;
 }
 
-article{
-	color: black;
-	font-family: 'Space Mono', monospace;
-	font-size: 13px;
-	width: 800px;
-	margin: 30px auto;
-	padding: 0px 10px;
-	border: 2px solid lightgrey;
-    border-radius: 5px;
-}
-
 .clr
 {
 	clear: both;
@@ -41,10 +30,6 @@ article{
 	text-align: center;
 
 }
-
-#menu{
-}
-
 
 #main{
 	position: static;
@@ -74,4 +59,23 @@ nav button
 }
 nav button:hover{
 	background-color: #20B2AA;
+}
+
+.articleTitle{
+	font-size: 2em;
+}
+
+
+article{
+	color: black;
+	background-color: white;
+	font-family: 'Space Mono', monospace;
+	font-size: 13px;
+	width: 800px;
+	margin: 40px auto;
+	padding: 5px 10px;
+	/*border: 1px solid rgba(233,233,233, 0.4);*/
+    border-radius: 5px;
+    /*box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);*/
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19)
 }
